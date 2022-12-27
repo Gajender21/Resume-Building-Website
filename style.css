@@ -1,21 +1,28 @@
 *{
     margin: 0;
     padding: 0;
+    color: aliceblue;
 }
 body{
-    background-color: rgba(193, 207, 60, 0.274);
+    background-color:#00212d;
 }
-#cv-form{
-    /* display: none; */
-}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+
 .myimg{
     border: 1px solid black;
     border-radius: 50%;
     width: 200px;
 }
 .background{
-    background-color: aqua;
+    background-color:#00212d;
 }
 #cv-template{
     display: none;
+    background-color: #00212d;
+}
+p,li{
+    color: black;
 }

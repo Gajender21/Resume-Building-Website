@@ -1,6 +1,6 @@
 // alert("loading");
 function addNewWEField(){
-    // console.log("Adding Field");
+    
     let newNode= document.createElement('textarea');
     newNode.classList.add('form-control');
     newNode.classList.add('weField');
@@ -75,6 +75,16 @@ function buildCV(){
         str1=str1+`<li> ${e.value} </li>`;
     }
     document.getElementById('aqT').innerHTML=str1;
+
+    //Skills
+    
+    let skl=document.getElementsByClassName('skillField');
+    let str2="";
+    for(let e of skl){
+        str2=str2+`<li> ${e.value} </li>`;
+    }
+    document.getElementById('skillT').innerHTML=str1;
+
 
     //Selecting Photo
 
